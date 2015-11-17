@@ -1769,6 +1769,11 @@ pre code {
 .col-xs-offset-0 {
   margin-left: 0;
 }
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
 @media (min-width: 768px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
@@ -6342,6 +6347,13 @@ button.close {
   display: block;
   margin-right: auto;
   margin-left: auto;
+}
+.vcenter {
+  display: inline-block;
+  margin-right: 0;
+  margin-left: 0;
+  vertical-align: middle;
+  float: none;
 }
 .pull-right {
   float: right !important;
